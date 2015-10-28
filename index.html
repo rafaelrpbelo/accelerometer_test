@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Accelerometer</title>
+  <link rel="stylesheet" href="jquery.mobile-1.4.3.min.css" />
+  <script src="jquery-1.11.1.min.js"></script>
+  <script src="jquery.mobile-1.4.3.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="accelerometer">
+
+  <div data-role="header">
+      <h1>Accelerometer</h1>
+  </div><!-- /header -->
+
+  <div data-role="content">
+    <p id="accelerometerStatus">checking...</p>
+
+    <div id="boxCanvas" style="position:relative; width: 290px; height: 300px; border: 1px solid grey;">
+      <div id="box" style="position:absolute; width: 10px; height: 10px; left: 50%; top: 50%; background: blue;"></div>
+    </div>
+  </div><!-- /content -->
+
+  <script src='accelerometer.js' type='text/javascript'></script>
+</div><!-- /page -->
+
+</body>
+</html>
