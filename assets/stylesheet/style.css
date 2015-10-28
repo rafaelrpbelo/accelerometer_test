@@ -1,0 +1,15 @@
+ .box-canvas {
+   position:relative;
+   width: 290px;
+   height: 300px;
+   border: 1px solid gray;
+ }
+
+.canvas {
+  position:absolute;
+  background: blue;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  top: 50%;
+}
